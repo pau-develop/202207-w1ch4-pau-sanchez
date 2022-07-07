@@ -93,3 +93,18 @@ body {
 .main-content__right span {
   margin-right: 10px;
 }
+
+/* EDIT ARTICLE */
+.edit-article {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.edit-article label {
+  margin-bottom: 10px;
+}
+.edit-article input {
+  margin-bottom: 10px;
+  border: none;
+  height: 30px;
+}
