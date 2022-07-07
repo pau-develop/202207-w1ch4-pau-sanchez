@@ -73,9 +73,17 @@ body {
   background-color: var(--light-orange);
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 3%;
 }
-
+.main-content__left {
+  display: flex;
+  align-items: center;
+}
+.main-content__right {
+  display: flex;
+  align-items: center;
+}
 .main-content__left span {
   margin-left: 10px;
 }
