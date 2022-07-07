@@ -13,6 +13,17 @@ body {
   justify-content: space-around;
   background-color: var(--blue);
 }
+
+.main-bar__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-bar__navigation ul {
+  margin: 0;
+}
+
 .main-bar__navigation li {
   display: inline;
   list-style: none;
