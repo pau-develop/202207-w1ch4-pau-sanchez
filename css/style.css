@@ -1,3 +1,4 @@
+/* GENERAL */
 :root {
   --blue: rgb(78, 179, 237);
 }
@@ -7,6 +8,7 @@ html {
 body {
   margin: 0;
 }
+/* HEADER */
 .main-bar {
   display: flex;
   flex-direction: row;
@@ -14,11 +16,12 @@ body {
   background-color: var(--blue);
   height: 100px;
 }
-
 .main-bar__title {
   font-size: 1.5rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
 }
-
 .main-bar__navigation {
   display: flex;
   align-items: center;
