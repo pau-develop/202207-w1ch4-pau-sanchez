@@ -100,3 +100,9 @@ body {
   flex-direction: column;
   margin-left: 15px;
 }
+.edit-article label {
+  margin-bottom: 10px;
+}
+.edit-article input {
+  margin-bottom: 10px;
+}
