@@ -56,6 +56,9 @@ body {
   background-color: var(--dark-orange);
   padding: 0 15px;
 }
+.fas {
+  color: black;
+}
 
 /* LAST SECTION */
 .main-content {
