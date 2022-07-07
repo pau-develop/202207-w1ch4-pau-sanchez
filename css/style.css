@@ -1,6 +1,7 @@
 /* GENERAL */
 :root {
   --blue: rgb(78, 179, 237);
+  --dark-orange: rgb(218, 100, 3);
 }
 html {
   font-family: sans-serif;
@@ -12,7 +13,7 @@ body {
 .main-bar {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: var(--blue);
   height: 100px;
 }
@@ -37,4 +38,12 @@ body {
   list-style: none;
   margin-left: 5px;
   font-size: 0.9rem;
+}
+/* SECTION */
+.second-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  background-color: var(--dark-orange);
 }
