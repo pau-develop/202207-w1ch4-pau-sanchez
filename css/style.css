@@ -9,6 +9,10 @@ html {
 body {
   margin: 0;
 }
+/* WRAP */
+.main-wrap {
+  min-height: 100vh;
+}
 /* HEADER */
 .main-bar {
   display: flex;
@@ -48,4 +52,15 @@ body {
   height: 75px;
   background-color: var(--dark-orange);
   padding: 0 15px;
+}
+
+/* LAST SECTION */
+.main-content ul {
+  padding: 0 15px;
+  margin-top: 5%;
+}
+.main-content li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
 }

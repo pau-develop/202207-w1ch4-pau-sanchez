@@ -8,19 +8,49 @@
     <title>Lista de la compra - Editar artículo</title>
   </head>
   <body>
-    <header class="main-bar">
-      <h1 class="main-bar__title">Lista de la compra</h1>
-      <nav class="main-bar__navigation">
+    <div class="main-wrap">
+      <header class="main-bar">
+        <h1 class="main-bar__title">Lista de la compra</h1>
+        <nav class="main-bar__navigation">
+          <ul>
+            <li>Principal</li>
+            <li>Lista</li>
+            <li>Acerca de</li>
+          </ul>
+        </nav>
+      </header>
+      <section class="second-bar">
+        <button>+</button>
+        <span>2/3 comprados</span>
+      </section>
+      <section class="main-content">
         <ul>
-          <li>Principal</li>
-          <li>Lista</li>
-          <li>Acerca de</li>
+          <li>
+            <div class="main-content__left">
+              <input type="checkbox" /><span>Pan</span>
+            </div>
+            <div class="main-content__right">
+              <span>0.75€</span><button></button>
+            </div>
+          </li>
+          <li>
+            <div class="main-content__left">
+              <input type="checkbox" /><span>Azúcar</span>
+            </div>
+            <div class="main-content__right">
+              <span>0.00€</span><button></button>
+            </div>
+          </li>
+          <li>
+            <div class="main-content__left">
+              <input type="checkbox" /><span>Leche</span>
+            </div>
+            <div class="main-content__right">
+              <span>1.20€</span><button></button>
+            </div>
+          </li>
         </ul>
-      </nav>
-    </header>
-    <section class="second-bar">
-      <button>+</button>
-      <span>2/3 comprados</span>
-    </section>
+      </section>
+    </div>
   </body>
 </html>
