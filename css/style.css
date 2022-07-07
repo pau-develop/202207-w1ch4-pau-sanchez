@@ -1,0 +1,20 @@
+:root {
+  --blue: rgb(78, 179, 237);
+}
+html {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+.main-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--blue);
+}
+.main-bar__navigation li {
+  display: inline;
+  list-style: none;
+  margin-left: 5px;
+}
