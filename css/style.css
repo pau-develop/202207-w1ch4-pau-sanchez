@@ -53,3 +53,14 @@ body {
   background-color: var(--dark-orange);
   padding: 0 15px;
 }
+
+/* LAST SECTION */
+.main-content ul {
+  padding: 0 15px;
+  margin-top: 5%;
+}
+.main-content li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
