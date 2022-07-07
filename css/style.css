@@ -75,3 +75,10 @@ body {
   justify-content: space-between;
   margin-bottom: 3%;
 }
+
+.main-content__left span {
+  margin-left: 10px;
+}
+.main-content__right span {
+  margin-right: 10px;
+}
