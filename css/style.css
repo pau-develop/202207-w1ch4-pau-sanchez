@@ -12,6 +12,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   background-color: var(--blue);
+  height: 100px;
 }
 
 .main-bar__title {
