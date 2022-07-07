@@ -14,6 +14,10 @@ body {
   background-color: var(--blue);
 }
 
+.main-bar__title {
+  font-size: 1.5rem;
+}
+
 .main-bar__navigation {
   display: flex;
   align-items: center;
